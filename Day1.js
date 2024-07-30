@@ -8,8 +8,8 @@ let sum = sumArray(arr);
 console.log(sum);
 // Question 2
 function reverseString(str) {
-    let ArrStr = str.split("");
-    let reverseStr = ArrStr.reverse().join("");
+    let ArrStr = str.split(""); // converted the string into an array
+    let reverseStr = ArrStr.reverse().join(""); //reversed the array then converted back to the string
     return reverseStr;
 }
 let reverseStr = reverseString("hello");
